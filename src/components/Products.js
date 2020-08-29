@@ -3,6 +3,9 @@ import React, { Component } from 'react'
 import Miel from '../assets/images/miel.jpg'
 import Algarrobina from '../assets/images/algarrobina.jpg'
 import Propoleo from '../assets/images/propoleo.jpg'
+import Polen from '../assets/images/polen.jpg'
+import Jarabe from '../assets/images/jarabe.jpg'
+import Jalea from '../assets/images/jalea.jpg'
 
 export class Products extends Component {
     render() {
@@ -35,6 +38,24 @@ export class Products extends Component {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 mb-4">
                         <div className="card">
+                            <img className="card-img-top" src={Jalea} alt="Foto de Sacha" />
+                            <div className="card-body">
+                            <h4 className="card-title mt-2">Jalea Real</h4>
+                            <p className="card-text">Sustancia que segregan las abejas obreras y que contiene gran cantidad de proteíanas y vitaminas.  La Jalea Real es el alimiento exclusivo para la abeja reina y de las larvas, en sus primeros días.  <br />Es ideal para aumentar las defensas del organismo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4 mb-4">
+                        <div className="card">
+                            <img className="card-img-top" src={Polen} alt="Foto de Sacha" />
+                            <div className="card-body">
+                            <h4 className="card-title mt-2">Polen</h4>
+                            <p className="card-text">El polen es un alimento que se recoge de la colmena de las abejas; éstas lo toman de las flores y lo transportan en forma de gránulos anaranjados.  <br />Contiene aproximadamente 25% de proteína y un 4% de fibra. <br />Refuerza el sistema inmunológico, aumenta el rendimiento de las personas, aumenta la resistencia a la fatiga y la capacidad intelectual.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4 mb-4">
+                        <div className="card">
                             <img className="card-img-top" src={Propoleo} alt="Foto de Sacha" />
                             <div className="card-body">
                             <h4 className="card-title mt-2">Propóleo</h4>
@@ -42,33 +63,16 @@ export class Products extends Component {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="col-12 col-md-6 col-lg-4 mb-4">
                         <div className="card">
-                            <img className="card-img-top" src={Miel} alt="Foto de Sacha" />
+                            <img className="card-img-top" src={Jarabe} alt="Foto de Sacha" />
                             <div className="card-body">
-                            <h4 className="card-title mt-2">Algarrobina</h4>
-                            <p className="card-text"></p>
+                            <h4 className="card-title mt-2">Jarabe BIO - Bron</h4>
+                            <p className="card-text">Jarabe natural a base de miel con propóleo e infusiones de hierbas como eucalipto, muña, mullaca, huamanrripa, entre otros.  <br />Es ideal para prevenir y tratar procesos infecciosos de las vías respiratorias.  Refuerza el sistema inmunológico.</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="card">
-                            <img className="card-img-top" src={Miel} alt="Foto de Sacha" />
-                            <div className="card-body">
-                            <h4 className="card-title mt-2">Algarrobina</h4>
-                            <p className="card-text"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="card">
-                            <img className="card-img-top" src={Miel} alt="Foto de Sacha" />
-                            <div className="card-body">
-                            <h4 className="card-title mt-2">Algarrobina</h4>
-                            <p className="card-text"></p>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                   
                     
                 </div>          
                 </div>

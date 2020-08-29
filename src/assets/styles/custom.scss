@@ -1,10 +1,7 @@
 
-$pink_bak-color: #f7bfe9;
 $violet-color: #fceffc;
 $yellow-color: #fce38a;
-$gray-color: #f0f4f7;
-$cyan-color: #95e1d3;
-$dark-color: #a76b25;
+$dark-color: #28464B;
 
 .navbar .navbar-nav .nav-link.active{
   border-bottom: solid 2px black;
@@ -20,13 +17,13 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #28464B;
+  color: $dark-color;
 }
 
 h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #28464B;
+  color: $dark-color;
 }
 
 
@@ -92,12 +89,10 @@ p{
   }
   
   .section-inner{
-    background: $gray-color;
     padding: 15px 25px;
   }
 
   .section-inner2{
-    background: $gray-color;
     padding: 8px 12px;
   }
 }

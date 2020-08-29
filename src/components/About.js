@@ -4,7 +4,7 @@ export class About extends Component {
     render() {
         return (
             <div id="about" className="section">
-                <div className="container mt-2 mb-2 section-inner2">
+                <div className="container mb-2 section-inner2">
                     <div className="row">
                         <div className="col mx-3">
                             <h2>Historia</h2>

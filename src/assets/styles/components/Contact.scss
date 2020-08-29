@@ -1,0 +1,21 @@
+
+$btn-color: #2f8f8f;
+$btnhover-color: #1d6b6b;
+$yellow-color: #fce38a;
+
+
+.btn-enviar {
+    background-color: $btn-color;
+    color: white;     
+}
+
+.btn-enviar:hover {
+    background-color: $btnhover-color;
+    color: white; 
+  }
+
+.section-contact {
+    background: $yellow-color;
+}
+
+

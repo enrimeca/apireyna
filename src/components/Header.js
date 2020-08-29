@@ -17,13 +17,13 @@ export class Header extends Component {
                             <div id="carousel" className="carousel slide carousel-fade text-center" data-ride="carousel" data-pause="false">
                                 <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src={imagen1} alt="Hawaii 1" />
+                                    <img className="d-block w-100" src={imagen1} alt="Apireyna 1" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={imagen2} alt="Hawaii 2" />
+                                    <img className="d-block w-100" src={imagen2} alt="Apireyna 2" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={imagen3} alt="Hawaii 3" />
+                                    <img className="d-block w-100" src={imagen3} alt="Apireyna 3" />
                                 </div>
                                 </div>
                             </div>
