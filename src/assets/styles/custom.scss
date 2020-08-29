@@ -1,5 +1,6 @@
 
-$pink-color: #f7bfe9;
+$pink_bak-color: #f7bfe9;
+$violet-color: #fceffc;
 $yellow-color: #fce38a;
 $gray-color: #f0f4f7;
 $cyan-color: #95e1d3;
@@ -13,7 +14,7 @@ $dark-color: #a76b25;
 body {
   font-family: 'Lato', arial, sans-serif;  
   font-size: 16px;
-  background-color: white;
+  background-color: $violet-color;
 }
 
 h1, h2, h3, h4 {
@@ -58,16 +59,12 @@ p{
 }
 
 .section-inner{
-  background: $gray-color;
   padding: 30px 50px 30px 50px;
 }
 
-// .btn-linkedin, .btn-resume {
-//   font-size: 12px;
-//   font-weight: 700;
-//   color: $lightblue-color;
-//   border: solid 1px $lightblue-color;
-// } 
+.section-inner2{
+  padding: 20px 40px;
+}
 
 @media (max-width: 576px) { 
   h1{
@@ -91,12 +88,17 @@ p{
   }
 
   .section{
-    padding: 10px 40px 5px;
+    padding: 7px 20px 5px;
   }
   
   .section-inner{
     background: $gray-color;
-    padding: 20px 30px;
+    padding: 15px 25px;
+  }
+
+  .section-inner2{
+    background: $gray-color;
+    padding: 8px 12px;
   }
 }
 
@@ -110,4 +112,8 @@ p{
 
 .navbar__logo{
   width: 75px;
+}
+
+.p-line {
+  line-height: 1.4rem;
 }
