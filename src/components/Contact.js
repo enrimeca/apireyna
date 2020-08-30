@@ -3,7 +3,7 @@ import '../assets/styles/components/Contact.scss'
 export class Contact extends Component {
     render() {
         return (
-            <div id="contact" className='section section-contact py-5'>
+            <div id="contacto" className='section section-contact py-5'>
                 <div className="container section-inner">
                     <div className="row">
                     <div className="col text-uppercase text-center">                        

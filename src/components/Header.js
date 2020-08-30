@@ -9,7 +9,7 @@ import imagen3 from '../assets/images/hero3.jpg'
 export class Header extends Component {
     render() {
         return (
-            <div id="header" className='section'>
+            <div id="inicio" className='section'>
                 <div className="container mt-1 mb-2 section-inner">
 
                     <div className="row">

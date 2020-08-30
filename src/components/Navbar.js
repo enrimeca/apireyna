@@ -15,16 +15,16 @@ export class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#header">Inicio</a>
+              <a className="nav-link" href="#inicio">Inicio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">Empresa</a>
+              <a className="nav-link" href="#empresa">Empresa</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#products">Productos</a>
+              <a className="nav-link" href="#productos">Productos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contacto</a>
+              <a className="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
