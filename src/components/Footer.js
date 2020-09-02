@@ -16,7 +16,8 @@ export class Footer extends Component {
                         <div className="col">
                             <h5>Síguenos en : 
                             <a href="https://www.facebook.com/ApireynaEIRL" target="_blank" ><img src={ Facebook } className='social-logo mx-1' alt='facebook' /></a>
-                            <img src={ Instagram } className='social-logo mx-1' alt='instagram' />
+                            <a href="https://www.instagram.com/apireyna" target="_blank" ><img src={ Instagram } className='social-logo mx-1' alt='instagram' /></a>
+                                                       
                             </h5>
                         </div>
                     </div>
