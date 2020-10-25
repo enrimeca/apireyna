@@ -10,7 +10,7 @@ export class Header extends Component {
     render() {
         return (
             <div id="inicio" className='section'>
-                <div className="container mt-1 mb-2 section-inner">
+                <div className="container mt-1 mb-2 section-inner3">
 
                     <div className="row">
                         <div className="col">

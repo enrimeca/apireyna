@@ -1,10 +1,11 @@
 
 $violet-color: #fceffc;
 $yellow-color: #fce38a;
+$red-color: #e0500d;
 $dark-color: #28464B;
 
 .navbar .navbar-nav .nav-link.active{
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px white;
   font-weight: 700;
 }
 
@@ -63,6 +64,10 @@ p{
   padding: 20px 40px;
 }
 
+.section-inner3{
+  padding: 30px 50px 30px 50px;
+}
+
 @media (max-width: 576px) { 
   h1{
     font-size: 1.8rem;
@@ -95,10 +100,14 @@ p{
   .section-inner2{
     padding: 8px 12px;
   }
+
+  .section-inner3{
+    padding: 5px 0;
+  }
 }
 
 .navbar-custom{
-  background-color: $yellow-color;
+  background-color: $red-color;
 }
 
 .navbar .nav-link{
@@ -107,6 +116,10 @@ p{
 
 .navbar__logo{
   width: 75px;
+}
+
+.Navbar__title{
+  color: $violet-color;
 }
 
 .p-line {
