@@ -23,7 +23,10 @@ export class Products extends Component {
                             <img className="card-img-top" src={Miel} alt="Foto de Sacha" />
                             <div className="card-body">
                             <h4 className="card-title mt-2">Miel de abeja</h4>
-                            <p className="card-text p-line">La miel es altamente nutritiva. <br />Contiene minerales como: hierro, calcio, fosfato, cloruro de sodio, potasio y magnesio.  Además, vitaminas, glucosa y fructosa.  <br />Es un alimento ideal para una dieta balanceada.</p>
+                            <p className="card-text p-line">La miel es una excelente fuente de energía, pues contiene azúcares sencillos
+(glucosa y fructosa) utilizables rápidamente por el organismo. <br />Contiene además
+minerales como: hierro, calcio, fosfato, cloruro de sodio, potasio y magnesio.
+Se le atribuye propiedades antibacteriana, antinflamatoria y antioxidante.</p>
                             </div>
                         </div>
                         </div>
@@ -32,7 +35,11 @@ export class Products extends Component {
                                 <img className="card-img-top" src={Algarrobina} alt="Foto de Sacha" />
                                 <div className="card-body">
                                 <h4 className="card-title mt-2">Algarrobina</h4>
-                                <p className="card-text">La algarrobina es rica en glucosa, sacarosa y fructosa.  Es un alimento energético.  <br />Ayuda a los niños con dificultad para comer o con bajo peso.</p>
+                                <p className="card-text">Es rica en vitamina A y calcio, además de contener potasio, magnesio y hierro,
+entre otras sustancias. <br />Además contiene un alto porcentaje de azúcares
+naturales y es buena para la digestión.
+<br />Excelente energizante natural, es ideal para toda la familia y se recomienda su
+consumo si se desea prevenir la anemia gracias a su alto porcentaje de hierro.</p>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +49,13 @@ export class Products extends Component {
                                 <img className="card-img-top" src={Polen} alt="Foto de Sacha" />
                                 <div className="card-body">
                                 <h4 className="card-title mt-2">Polen</h4>
-                                <p className="card-text">El polen es un alimento que se recoge de la colmena de las abejas; éstas lo toman de las flores y lo transportan en forma de gránulos anaranjados.  <br />Contiene aproximadamente 25% de proteína y un 4% de fibra. <br />Refuerza el sistema inmunológico, aumenta el rendimiento de las personas, aumenta la resistencia a la fatiga y la capacidad intelectual.</p>
+                                <p className="card-text">Suplemento nutricional que contiene aminoácidos esenciales, siendo una excelente fuente de proteína vegetal.  Contiene minerales como
+el calcio, magnesio, zinc y complejo B. <br />Dentro de los
+beneficios que se le atribuyen son: regeneración de los tejidos,  reduce la
+inflamación de próstata; regulador del tránsito intestinal.
+<br />Para su consumo, se sugiere añadir los gránulos de polen a las frutas, los
+jugos, el yogurt, los cereales o las ensaladas; siendo la dosificación diaria de 20
+gramos.</p>
                                 </div>
                             </div>
                         </div>
